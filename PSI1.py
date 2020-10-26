@@ -45,7 +45,3 @@ print()
 #12
 for j in range(100,19,-5):
     print(j)
-#13
-lista_uczniow=[student1,student2,student3]
-for k in lista_uczniow:
-    print(k.values(student1.imie))
