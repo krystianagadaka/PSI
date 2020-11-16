@@ -1,2 +1,2 @@
-# PSI
+ 
 # Model bazy danych
