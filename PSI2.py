@@ -84,6 +84,11 @@ druga=ScienceCalculator(5,2)
 print(druga.pot())
 #7
 def funkcja5(slowo):
+    print(slowo[::-1])
+funkcja5("pies")
+#8
+
+
 
 
 
