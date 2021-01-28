@@ -1,3 +1,3 @@
  
 # Model bazy danych
-![](db_schema.png)
+![db](db_schema.png)
