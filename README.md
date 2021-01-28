@@ -1,3 +1,3 @@
  
 # Model bazy danych
-![db](https://raw.githubusercontent.com/krystianagadaka/PSI/main/Projekt/db_schema.png)
+![db](https://raw.githubusercontent.com/krystianagadaka/PSI/Projekt/db_schema.png)
