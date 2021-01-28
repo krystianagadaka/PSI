@@ -1,3 +1,3 @@
  
 # Model bazy danych
-PSI3.png
+![](db_schema.png)
