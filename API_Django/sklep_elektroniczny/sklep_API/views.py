@@ -18,19 +18,19 @@ class KlientDetail(generics.RetrieveDestroyAPIView):
     queryset = Klient.objects.all()
     serializer_class = KlientSerializer
     name = 'klient-detail'
-   # permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
 class KategoriaList(generics.ListCreateAPIView):
     queryset = Kategoria.objects.all()
     serializer_class = KategoriaSerializer
     name = 'kategoria-list'
-  #  permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
 class KategoriaDetail(generics.RetrieveDestroyAPIView):
     queryset = Kategoria.objects.all()
     serializer_class = KategoriaSerializer
     name = 'kategoria-detail'
-  #  permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
 class ProduktFilter(FilterSet):
     min_cena = NumberFilter(field_name='cena',lookup_expr='gte')
