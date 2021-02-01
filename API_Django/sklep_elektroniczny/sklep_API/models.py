@@ -39,9 +39,10 @@ class Produkt(models.Model):
 
 
 class Zamowienie(models.Model):
-    id_klient = models.ForeignKey(Klient, related_name='zam', on_delete=models.CASCADE)
+    id_klient = models.ForeignKey(Klient, related_name='zamowienia', on_delete=models.CASCADE)
     id_produkt = models.ForeignKey(Produkt, related_name='pro', on_delete=models.CASCADE)
     kwota = models.DecimalField(max_digits=20, decimal_places=2)
+
     class Meta:
         ordering = ('kwota',)
 
