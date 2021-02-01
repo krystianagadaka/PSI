@@ -12,7 +12,7 @@ class KlientList(generics.ListCreateAPIView):
     name = 'klient-list'
     filter_fields = ['imie','nazwisko','email']
     ordering_fields = ['nazwisko']
-   # permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
 class KlientDetail(generics.RetrieveDestroyAPIView):
     queryset = Klient.objects.all()
